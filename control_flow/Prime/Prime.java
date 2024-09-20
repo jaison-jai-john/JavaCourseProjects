@@ -1,4 +1,4 @@
-package lab.control_flow.Prime;
+package Lab.control_flow.Prime;
 import java.util.Scanner;
 
 public class Prime {

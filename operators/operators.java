@@ -1,4 +1,4 @@
-package lab.operators;
+package Lab.operators;
 
 import java.util.Scanner;
 

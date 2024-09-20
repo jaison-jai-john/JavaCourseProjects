@@ -1,4 +1,4 @@
-package lab.control_flow.Palindrome;
+package Lab.control_flow.Palindrome;
 
 import java.util.Scanner;
 
