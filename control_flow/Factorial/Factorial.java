@@ -1,4 +1,4 @@
-package Lab.control_flow.Factorial;
+package JavaCourseProjects.control_flow.Factorial;
 
 import java.util.Scanner;
 

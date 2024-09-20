@@ -1,4 +1,4 @@
-package Lab.IsPerfectSquare;
+package JavaCourseProjects.IsPerfectSquare;
 
 import java.util.Scanner;
 

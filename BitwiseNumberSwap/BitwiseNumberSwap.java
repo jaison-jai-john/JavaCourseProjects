@@ -1,4 +1,5 @@
-package Lab.BitwiseNumberSwap;
+package JavaCourseProjects.BitwiseNumberSwap;
+
 import java.util.Scanner;
 
 public class BitwiseNumberSwap {

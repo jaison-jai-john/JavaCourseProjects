@@ -1,4 +1,4 @@
-package Lab;
+package JavaCourseProjects;
 
 import java.io.IOException;
 import java.nio.file.Files;

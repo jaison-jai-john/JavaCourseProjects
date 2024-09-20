@@ -1,4 +1,4 @@
-package Lab.control_flow.Fibonacci;
+package JavaCourseProjects.control_flow.Fibonacci;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Lab.control_flow.Grade;
+package JavaCourseProjects.control_flow.Grade;
 
 import java.util.Scanner;
 

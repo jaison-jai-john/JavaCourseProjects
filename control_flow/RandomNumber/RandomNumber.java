@@ -1,4 +1,4 @@
-package Lab.control_flow.RandomNumber;
+package JavaCourseProjects.control_flow.RandomNumber;
 
 import java.util.Scanner;
 

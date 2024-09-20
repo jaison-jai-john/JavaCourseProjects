@@ -1,4 +1,4 @@
-package Lab.ReverseNum;
+package JavaCourseProjects.ReverseNum;
 
 import java.util.Scanner;
 

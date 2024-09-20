@@ -1,4 +1,4 @@
-package Lab.control_flow.LeapYear;
+package JavaCourseProjects.control_flow.LeapYear;
 
 import java.util.Scanner;
 

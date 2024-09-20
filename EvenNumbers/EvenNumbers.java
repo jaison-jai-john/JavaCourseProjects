@@ -1,4 +1,4 @@
-package Lab.EvenNumbers;
+package JavaCourseProjects.EvenNumbers;
 
 import java.util.Scanner;
 

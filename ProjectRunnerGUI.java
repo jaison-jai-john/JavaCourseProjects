@@ -1,4 +1,4 @@
-package Lab;
+package JavaCourseProjects;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -61,22 +61,27 @@ public class ProjectRunnerGUI extends JFrame {
 
   private void runProject(Path projectPath) {
     try {
-      // Compile the Java files in the project directory
-      // ProcessBuilder compileBuilder = new ProcessBuilder("javac", "*.java");
-      // compileBuilder.directory(projectPath.toFile()); // Set the working directory
-      // to the project directory
-      // Process compileProcess = compileBuilder.start();
-      // compileProcess.waitFor();
-
       // Determine the main class name based on the folder name
       String mainClassName = projectPath.getFileName().toString();
 
-      // Run the main class with the fully qualified name in a new command prompt
-      // window
-      String command = String.format("cmd /c start cmd /k \"java %s\\%s.java\"", projectPath, mainClassName);
-      System.out.println(projectPath);
-      ProcessBuilder runBuilder = new ProcessBuilder("cmd", "/c", command);
-      runBuilder.directory(Paths.get(".").toFile()); // Set the working directory to the project directory
+      // Determine the command to run based on the operating system
+      String os = System.getProperty("os.name").toLowerCase();
+      ProcessBuilder runBuilder;
+      if (os.contains("win")) {
+        // Windows
+        String command = String.format("cmd /c start cmd /k \"java %s\\%s.java\"", projectPath, mainClassName);
+        runBuilder = new ProcessBuilder("cmd", "/c", command);
+      } else if (os.contains("mac")) {
+        // macOS
+        String command = String.format("java %s/%s.java", projectPath, mainClassName);
+        runBuilder = new ProcessBuilder("sh", "-c", "open -a Terminal.app '" + command + "'");
+      } else {
+        // Linux and other Unix-like systems
+        String command = String.format("java %s/%s.java", projectPath, mainClassName);
+        runBuilder = new ProcessBuilder("sh", "-c", "x-terminal-emulator -e '" + command + "'");
+      }
+
+      runBuilder.directory(Paths.get(".").toFile()); // Set the working directory to the current working directory
       runBuilder.start();
     } catch (IOException ex) {
       ex.printStackTrace();

@@ -1,4 +1,4 @@
-package Lab.LargestOfThree;
+package JavaCourseProjects.LargestOfThree;
 
 import java.util.Scanner;
 

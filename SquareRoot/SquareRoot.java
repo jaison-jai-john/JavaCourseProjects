@@ -1,4 +1,4 @@
-package Lab.SquareRoot;
+package JavaCourseProjects.SquareRoot;
 
 import java.util.Scanner;
 

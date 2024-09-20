@@ -1,4 +1,4 @@
-package Lab.SumOfNaturals;
+package JavaCourseProjects.SumOfNaturals;
 
 import java.util.Scanner;
 

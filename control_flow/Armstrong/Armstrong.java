@@ -1,4 +1,4 @@
-package Lab.control_flow.Armstrong;
+package JavaCourseProjects.control_flow.Armstrong;
 
 import java.util.Scanner;
 

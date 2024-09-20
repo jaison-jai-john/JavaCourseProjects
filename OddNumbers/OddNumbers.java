@@ -1,4 +1,4 @@
-package Lab.OddNumbers;
+package JavaCourseProjects.OddNumbers;
 
 import java.util.Scanner;
 

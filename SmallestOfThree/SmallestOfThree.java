@@ -1,4 +1,4 @@
-package Lab.SmallestOfThree;
+package JavaCourseProjects.SmallestOfThree;
 
 import java.util.Scanner;
 

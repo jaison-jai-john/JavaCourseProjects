@@ -1,4 +1,4 @@
-package Lab.control_flow.OddEven;
+package JavaCourseProjects.control_flow.OddEven;
 
 import java.util.Scanner;
 

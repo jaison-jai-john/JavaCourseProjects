@@ -1,4 +1,4 @@
-package Lab.control_flow.Largest_num;
+package JavaCourseProjects.control_flow.Largest_num;
 
 import java.util.Scanner;
 

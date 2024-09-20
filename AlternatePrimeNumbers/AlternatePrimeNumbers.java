@@ -1,4 +1,4 @@
-package Lab.AlternatePrimeNumbers;
+package JavaCourseProjects.AlternatePrimeNumbers;
 
 import java.util.Scanner;
 

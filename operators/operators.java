@@ -1,4 +1,4 @@
-package Lab.operators;
+package JavaCourseProjects.operators;
 
 import java.util.Scanner;
 

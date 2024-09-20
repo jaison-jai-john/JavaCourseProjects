@@ -1,5 +1,7 @@
-package Lab.NumberToWord;
+package JavaCourseProjects.NumberToWord;
+
 import java.util.Scanner;
+
 public class NumberToWord {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -40,7 +42,7 @@ public class NumberToWord {
     }
     return word;
   }
-  
+
   public static String numToWordHelper(int num, String[] ones, String[] teens, String[] tens) {
     String word = "";
     if (num >= 100) {

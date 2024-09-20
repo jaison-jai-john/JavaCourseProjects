@@ -1,4 +1,4 @@
-package Lab.IsPositiveOrNegative;
+package JavaCourseProjects.IsPositiveOrNegative;
 
 import java.util.Scanner;
 

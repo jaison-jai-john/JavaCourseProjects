@@ -1,4 +1,4 @@
-package Lab.GCD;
+package JavaCourseProjects.GCD;
 
 import java.util.Scanner;
 
